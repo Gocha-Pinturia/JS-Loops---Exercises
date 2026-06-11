@@ -136,7 +136,7 @@ const crackPin = (s1, s2, s3) => {
     }
     return console.log(`Cracked in ${attempts} attempt(s)`);
 }
-crackPin(s1, s2, s3);
+crackPin(s1, s2, s3); // result 54 not 79 !!!
 
 
 // 🔴 Bonus A: Change s1, s2, s3 to 5, 5, 5. Before running the code, predict how many
